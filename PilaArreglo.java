@@ -13,11 +13,11 @@ public class PilaArreglo<E> implements Stack<E>{
 	private int espacio;
 	
 	/**
-	 * Construye una pila con un arreglo de 30 elementos.
+	 * Construye una pila con un arreglo de 15 elementos.
 	 */
 	public PilaArreglo(){
 		tamano=0;
-		datos=(E[]) new Object[30];
+		datos=(E[]) new Object[15];
 		espacio=20;
 	}
 	
